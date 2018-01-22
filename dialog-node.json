@@ -1,0 +1,28 @@
+{
+  "context": {
+    "privcreds": {
+      "user": "b507cef9-......",
+      "password": "mBZu7......"
+    }
+  },
+  "output": {
+    "text": {
+      "values": [
+        ""
+      ]
+    }
+  },
+  "actions": [
+    {
+      "name": "/henrik@example.com_dev/Db2ActionInICF",
+      "type": "server",
+      "parameters": {
+        "queryparms": [
+          "@sys-location"
+        ]
+      },
+      "credentials": "$privcreds",
+      "result_variable": "myres"
+    }
+  ]
+}
