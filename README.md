@@ -7,6 +7,7 @@ IBM Cloud Functions are also used to access Db2 directly from dialog nodes via d
 
 ## Files
 * [action.js](action.js): Action for IBM Cloud Function (ICF / OpenWhisk) to perform a parameterized query against Db2.
+* [insert-action.js](insert-action.js): Action for IBM Cloud Function (ICF / OpenWhisk) to insert a single row into a Db2 table.
 * [dialog-node.json](dialog-node.json): JSON version of a dialog node showing the call to the ICF action.
 
 
